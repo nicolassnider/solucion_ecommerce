@@ -1,4 +1,5 @@
 using Catalog.Persistence.Database;
+using Catalog.Service.Queries;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -27,6 +28,8 @@ namespace Catalog.Api
                     x => x.MigrationsHistoryTable("__EFMigrationsHistory", "Catalog")
                 )
             );
+
+            services.AddTransient<IProductQueryService, ProductQueryService>();
             services.AddControllers();
         }
 
