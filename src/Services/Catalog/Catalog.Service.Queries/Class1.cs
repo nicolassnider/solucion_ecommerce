@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Catalog.Domain
+namespace Catalog.Service.Queries
 {
     public class Class1
     {
