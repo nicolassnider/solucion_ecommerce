@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/src/Services/Catalog/Catalog.Persistence.Database/obj
+/src/Services/Catalog/Catalog.Domain/obj
+/src/Services/Catalog/Catalog.Domain/bin/Debug/netcoreapp3.1
+/src/Services/Catalog/Catalog.Persistence.Database/bin/Debug/netcoreapp3.1
+/src/Services/Catalog/Catalog.Api/appsettings.json
+/src/Services/Catalog/Catalog.Api/obj
+/src/Services/Catalog/Catalog.Api/bin/Debug/netcoreapp3.1
