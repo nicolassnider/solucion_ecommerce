@@ -6,6 +6,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using MediatR;
+using System.Reflection;
+using Common.Logging;
+using Microsoft.Extensions.Logging;
 
 namespace Catalog.Api
 {
@@ -29,17 +33,23 @@ namespace Catalog.Api
                 )
             );
 
+            services.AddMediatR(Assembly.Load("Catalog.Service.EventHandlers")); 
+
             services.AddTransient<IProductQueryService, ProductQueryService>();
             services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            loggerFactory.AddSyslog(
+                    Configuration.GetValue<string>("Papertrail:host"),
+                    Configuration.GetValue<int>("Papertrail:port"));
 
             app.UseRouting();
 
