@@ -20,3 +20,5 @@
 /src/Services/Service.Common.Paging/obj
 /src/Services/Catalog/Catalog.Service.EventHandlers/obj
 /src/Services/Catalog/Catalog.Service.EventHandlers/bin/Debug/netcoreapp3.1
+/src/Common.Logging/bin
+/src/Common.Logging/obj

@@ -1,9 +1,0 @@
-E:\Repos\SolucionEcommerce\src\Common.Logging\bin\Debug\netcoreapp3.1\Common.Logging.deps.json
-E:\Repos\SolucionEcommerce\src\Common.Logging\bin\Debug\netcoreapp3.1\Common.Logging.dll
-E:\Repos\SolucionEcommerce\src\Common.Logging\bin\Debug\netcoreapp3.1\Common.Logging.pdb
-E:\Repos\SolucionEcommerce\src\Common.Logging\obj\Debug\netcoreapp3.1\Common.Logging.csprojAssemblyReference.cache
-E:\Repos\SolucionEcommerce\src\Common.Logging\obj\Debug\netcoreapp3.1\Common.Logging.AssemblyInfoInputs.cache
-E:\Repos\SolucionEcommerce\src\Common.Logging\obj\Debug\netcoreapp3.1\Common.Logging.AssemblyInfo.cs
-E:\Repos\SolucionEcommerce\src\Common.Logging\obj\Debug\netcoreapp3.1\Common.Logging.csproj.CoreCompileInputs.cache
-E:\Repos\SolucionEcommerce\src\Common.Logging\obj\Debug\netcoreapp3.1\Common.Logging.dll
-E:\Repos\SolucionEcommerce\src\Common.Logging\obj\Debug\netcoreapp3.1\Common.Logging.pdb

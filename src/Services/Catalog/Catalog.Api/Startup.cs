@@ -10,6 +10,7 @@ using MediatR;
 using System.Reflection;
 using Common.Logging;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Diagnostics.HealthChecks;
 
 namespace Catalog.Api
 {
@@ -32,6 +33,9 @@ namespace Catalog.Api
                     x => x.MigrationsHistoryTable("__EFMigrationsHistory", "Catalog")
                 )
             );
+
+            services.AddHealthChecks()
+                .AddCheck("self",()=> HealthCheckResult.Healthy());
 
             services.AddMediatR(Assembly.Load("Catalog.Service.EventHandlers")); 
 
@@ -56,7 +60,8 @@ namespace Catalog.Api
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
-            {
+            {                
+                endpoints.MapHealthChecks("/hc");
                 endpoints.MapControllers();
             });
         }

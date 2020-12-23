@@ -1,9 +1,0 @@
-E:\Repos\SolucionEcommerce\src\Services\Catalog\Catalog.Common\bin\Debug\netcoreapp3.1\Catalog.Common.deps.json
-E:\Repos\SolucionEcommerce\src\Services\Catalog\Catalog.Common\bin\Debug\netcoreapp3.1\Catalog.Common.dll
-E:\Repos\SolucionEcommerce\src\Services\Catalog\Catalog.Common\bin\Debug\netcoreapp3.1\Catalog.Common.pdb
-E:\Repos\SolucionEcommerce\src\Services\Catalog\Catalog.Common\obj\Debug\netcoreapp3.1\Catalog.Common.csprojAssemblyReference.cache
-E:\Repos\SolucionEcommerce\src\Services\Catalog\Catalog.Common\obj\Debug\netcoreapp3.1\Catalog.Common.AssemblyInfoInputs.cache
-E:\Repos\SolucionEcommerce\src\Services\Catalog\Catalog.Common\obj\Debug\netcoreapp3.1\Catalog.Common.AssemblyInfo.cs
-E:\Repos\SolucionEcommerce\src\Services\Catalog\Catalog.Common\obj\Debug\netcoreapp3.1\Catalog.Common.csproj.CoreCompileInputs.cache
-E:\Repos\SolucionEcommerce\src\Services\Catalog\Catalog.Common\obj\Debug\netcoreapp3.1\Catalog.Common.dll
-E:\Repos\SolucionEcommerce\src\Services\Catalog\Catalog.Common\obj\Debug\netcoreapp3.1\Catalog.Common.pdb
