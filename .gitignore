@@ -18,3 +18,5 @@
 /src/Services/Service.Common.Mapping/bin/Debug/netcoreapp3.1
 /src/Services/Service.Common.Mapping/obj
 /src/Services/Service.Common.Paging/obj
+/src/Services/Catalog/Catalog.Service.EventHandlers/obj
+/src/Services/Catalog/Catalog.Service.EventHandlers/bin/Debug/netcoreapp3.1

@@ -35,11 +35,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.Service.Queries", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{5F1CDE8D-92AC-4887-824C-F647244B98EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.Common.Collection", "src\Services\Service.Common.Collection\Service.Common.Collection.csproj", "{CC749973-B1E8-4225-A5DF-D0E3A7486054}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service.Common.Collection", "src\Services\Service.Common.Collection\Service.Common.Collection.csproj", "{CC749973-B1E8-4225-A5DF-D0E3A7486054}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.Common.Mapping", "src\Services\Service.Common.Mapping\Service.Common.Mapping.csproj", "{24277225-3FEE-4854-A32C-8E9B0DE40976}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service.Common.Mapping", "src\Services\Service.Common.Mapping\Service.Common.Mapping.csproj", "{24277225-3FEE-4854-A32C-8E9B0DE40976}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.Common.Paging", "src\Services\Service.Common.Paging\Service.Common.Paging.csproj", "{4C764808-64AA-4FBC-AB7E-765D7EBD45BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service.Common.Paging", "src\Services\Service.Common.Paging\Service.Common.Paging.csproj", "{4C764808-64AA-4FBC-AB7E-765D7EBD45BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.Service.EventHandlers", "src\Services\Catalog\Catalog.Service.EventHandlers\Catalog.Service.EventHandlers.csproj", "{0BE71CF3-052F-44C8-972D-C264AD7F9643}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.Common", "05.Common", "{ABE8C6C6-B4CF-40FB-AD7B-EFDE3C2C15F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Common", "src\Services\Catalog\Catalog.Common\Catalog.Common.csproj", "{36D39745-4424-48BD-89FD-41BC9F00C416}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.Common", "04.Common", "{C635FC90-7976-4F4B-9908-9B2B15F62431}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Logging", "src\Common.Logging\Common.Logging.csproj", "{831D7E94-9953-451F-A3C7-8AA34411B347}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +85,18 @@ Global
 		{4C764808-64AA-4FBC-AB7E-765D7EBD45BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C764808-64AA-4FBC-AB7E-765D7EBD45BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C764808-64AA-4FBC-AB7E-765D7EBD45BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BE71CF3-052F-44C8-972D-C264AD7F9643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BE71CF3-052F-44C8-972D-C264AD7F9643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BE71CF3-052F-44C8-972D-C264AD7F9643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BE71CF3-052F-44C8-972D-C264AD7F9643}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36D39745-4424-48BD-89FD-41BC9F00C416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36D39745-4424-48BD-89FD-41BC9F00C416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36D39745-4424-48BD-89FD-41BC9F00C416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36D39745-4424-48BD-89FD-41BC9F00C416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{831D7E94-9953-451F-A3C7-8AA34411B347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{831D7E94-9953-451F-A3C7-8AA34411B347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{831D7E94-9953-451F-A3C7-8AA34411B347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{831D7E94-9953-451F-A3C7-8AA34411B347}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -96,6 +118,10 @@ Global
 		{CC749973-B1E8-4225-A5DF-D0E3A7486054} = {5F1CDE8D-92AC-4887-824C-F647244B98EE}
 		{24277225-3FEE-4854-A32C-8E9B0DE40976} = {5F1CDE8D-92AC-4887-824C-F647244B98EE}
 		{4C764808-64AA-4FBC-AB7E-765D7EBD45BE} = {5F1CDE8D-92AC-4887-824C-F647244B98EE}
+		{0BE71CF3-052F-44C8-972D-C264AD7F9643} = {0AC8CDC4-1CD1-4F87-B507-125B763CCFEE}
+		{ABE8C6C6-B4CF-40FB-AD7B-EFDE3C2C15F6} = {179EA859-E4DC-4683-AA37-4194C39050B2}
+		{36D39745-4424-48BD-89FD-41BC9F00C416} = {ABE8C6C6-B4CF-40FB-AD7B-EFDE3C2C15F6}
+		{831D7E94-9953-451F-A3C7-8AA34411B347} = {C635FC90-7976-4F4B-9908-9B2B15F62431}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {964B7C48-3184-48B2-BC25-73B358131DD0}
