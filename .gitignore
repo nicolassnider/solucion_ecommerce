@@ -22,3 +22,9 @@
 /src/Services/Catalog/Catalog.Service.EventHandlers/bin/Debug/netcoreapp3.1
 /src/Common.Logging/bin
 /src/Common.Logging/obj
+/.vs/SolucionEcommerce/v16
+/src/Services/Catalog/Catalog.Common/bin/Debug/netcoreapp3.1
+/src/Services/Catalog/Catalog.Common/obj/Debug/netcoreapp3.1
+/src/Services/Catalog/Catalog.Service.Queries/bin/Debug/netcoreapp3.1
+/src/Services/Service.Common.Paging/bin/Debug/netcoreapp3.1
+/src/Services/Catalog/Catalog.Common/obj
