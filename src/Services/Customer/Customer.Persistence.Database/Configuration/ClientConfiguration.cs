@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System.Collections.Generic;
 
-namespace Order.Persistence.Database.Configuration
+namespace Customer.Persistence.Database.Configuration
 {
     public class ClientConfiguration
     {

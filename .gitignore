@@ -55,3 +55,15 @@
 /src/Services/Order/Order.Service.Queries/obj
 /src/Services/Customer/Customer.Api/bin/Debug/netcoreapp3.1
 /src/Services/Order/Order.Api/bin/Debug/netcoreapp3.1
+/src/Services/Customer/Customer.Persistence.Database/Migrations
+/src/Services/Identity/Identity.Api/obj
+/src/Services/Identity/Identity.Domain/bin/Debug/netcoreapp3.1
+/src/Services/Identity/Identity.Domain/obj
+/src/Services/Identity/Identity.Persistence.Database/bin/Debug/netcoreapp3.1
+/src/Services/Identity/Identity.Persistence.Database/Migrations
+/src/Services/Identity/Identity.Persistence.Database/obj
+/src/Services/Identity/Identity.Service.EventHandlers/bin/Debug/netcoreapp3.1
+/src/Services/Identity/Identity.Service.EventHandlers/obj
+/src/Services/Identity/Identity.Service.Queries/bin/Debug/netcoreapp3.1
+/src/Services/Identity/Identity.Service.Queries/obj
+/src/Services/Order/Order.Persistence.Database/Migrations
