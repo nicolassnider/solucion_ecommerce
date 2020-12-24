@@ -11,11 +11,12 @@ using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using static Catalog.Common.Enums;
 using Microsoft.Extensions.Logging;
+using Catalog.Service.EventHandlers.Exceptions;
 
 namespace Catalog.Service.EventHandlers
     
 {
-    class ProductInStockUpdateStockEventHandler
+    public class ProductInStockUpdateStockEventHandler
         : INotificationHandler<ProductInStockUpdateStockCommand>
     {
         private readonly ApplicationDbContext _context;
@@ -45,7 +46,7 @@ namespace Catalog.Service.EventHandlers
                     if (entry == null || item.Stock > entry.Stock)
                     {
                         _logger.LogError($"Product {entry.ProductId} - doesn´t have enough stock");
-                        throw new Exception($"Product {entry.ProductId} - doesn´t have enough stock");
+                        throw new ProductInStockUpdateStockCommandException($"Product {entry.ProductId} - doesn´t have enough stock");
                     }
                     _logger.LogInformation($"Product {entry.ProductId} - stock substracted");
                     entry.Stock -= item.Stock;

@@ -28,3 +28,6 @@
 /src/Services/Catalog/Catalog.Service.Queries/bin/Debug/netcoreapp3.1
 /src/Services/Service.Common.Paging/bin/Debug/netcoreapp3.1
 /src/Services/Catalog/Catalog.Common/obj
+/src/Services/Catalog/Catalog.Tests/bin/Debug/netcoreapp3.1
+/src/Services/Catalog/Catalog.Tests/obj
+/.vs/SolucionEcommerce
