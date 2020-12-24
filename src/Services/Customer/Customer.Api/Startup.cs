@@ -44,7 +44,7 @@ namespace Customer.Api
                         .AddCheck("self", () => HealthCheckResult.Healthy())
                         .AddDbContextCheck<ApplicationDbContext>();
 
-            services.AddHealthChecksUI();
+            //services.AddHealthChecksUI();
 
             // Event handlers
             services.AddMediatR(Assembly.Load("Customer.Service.EventHandlers"));

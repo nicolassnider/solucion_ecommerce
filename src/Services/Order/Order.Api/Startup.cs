@@ -49,7 +49,7 @@ namespace Order.Api
                         .AddCheck("self", () => HealthCheckResult.Healthy())
                         .AddDbContextCheck<ApplicationDbContext>(typeof(ApplicationDbContext).Name);
 
-            services.AddHealthChecksUI();
+            //services.AddHealthChecksUI();
 
             // Api Urls
             services.Configure<ApiUrls>(

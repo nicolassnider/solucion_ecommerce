@@ -53,3 +53,5 @@
 /src/Services/Order/Order.Service.Proxies/obj
 /src/Services/Order/Order.Service.Queries/bin/Debug/netcoreapp3.1
 /src/Services/Order/Order.Service.Queries/obj
+/src/Services/Customer/Customer.Api/bin/Debug/netcoreapp3.1
+/src/Services/Order/Order.Api/bin/Debug/netcoreapp3.1
