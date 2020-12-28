@@ -1,5 +1,4 @@
 using Common.Logging;
-using HealthChecks.UI.Client;
 using Identity.Domain;
 using Identity.Persistence.Database;
 using Identity.Service.Queries;
@@ -49,7 +48,7 @@ namespace Identity.Api
                         .AddCheck("self", () => HealthCheckResult.Healthy())
                         .AddDbContextCheck<ApplicationDbContext>(typeof(ApplicationDbContext).Name);
 
-            services.AddHealthChecksUI();
+            //services.AddHealthChecksUI();
 
             // Identity
             services.AddIdentity<ApplicationUser, ApplicationRole>()
@@ -116,13 +115,8 @@ namespace Identity.Api
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllers();
-                endpoints.MapHealthChecks("/hc", new HealthCheckOptions()
-                {
-                    Predicate = _ => true,
-                    ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
-                });
-                endpoints.MapHealthChecksUI();
+                endpoints.MapControllers();               
+                
             });
         }
     }

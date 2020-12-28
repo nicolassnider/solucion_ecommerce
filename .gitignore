@@ -67,3 +67,4 @@
 /src/Services/Identity/Identity.Service.Queries/bin/Debug/netcoreapp3.1
 /src/Services/Identity/Identity.Service.Queries/obj
 /src/Services/Order/Order.Persistence.Database/Migrations
+/src/Services/Identity/Identity.Api/bin/Debug/netcoreapp3.1
