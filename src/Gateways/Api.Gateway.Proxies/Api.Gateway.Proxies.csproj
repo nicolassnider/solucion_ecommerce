@@ -13,4 +13,8 @@
     <ProjectReference Include="..\Api.Gateway.Models\Api.Gateway.Models.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Config\" />
+  </ItemGroup>
+
 </Project>

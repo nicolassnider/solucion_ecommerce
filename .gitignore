@@ -72,3 +72,8 @@
 /src/Gateways/Api.Gateway.Proxies/obj
 /src/Gateways/Api.Gateway.Models/obj
 /src/Gateways/Api.Gateway.Models/bin/Debug/netcoreapp3.1
+/src/Gateways/Api.Gateway.Proxies/bin/Debug/netcoreapp3.1
+/src/Gateways/Api.Gateway.Proxies/bin/Debug/netcoreapp3.1
+/src/Gateways/Api.Gateway.Proxies/bin/Debug/netcoreapp3.1
+/src/Gateways/Api.Gateway.Proxies/bin/Debug/netcoreapp3.1/Api.Gateway.Models.dll
+/src/Gateways/Api.Gateway.WebClient/bin/Debug/netcoreapp3.1

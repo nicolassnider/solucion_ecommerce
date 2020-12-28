@@ -8,5 +8,10 @@
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Api.Gateway.Models\Api.Gateway.Models.csproj" />
+    <ProjectReference Include="..\Api.Gateway.Proxies\Api.Gateway.Proxies.csproj" />
+  </ItemGroup>
+
 
 </Project>
