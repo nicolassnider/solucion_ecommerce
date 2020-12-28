@@ -68,3 +68,7 @@
 /src/Services/Identity/Identity.Service.Queries/obj
 /src/Services/Order/Order.Persistence.Database/Migrations
 /src/Services/Identity/Identity.Api/bin/Debug/netcoreapp3.1
+/src/Gateways/Api.Gateway.WebClient/obj
+/src/Gateways/Api.Gateway.Proxies/obj
+/src/Gateways/Api.Gateway.Models/obj
+/src/Gateways/Api.Gateway.Models/bin/Debug/netcoreapp3.1
