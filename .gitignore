@@ -79,3 +79,5 @@
 /src/Gateways/Api.Gateway.WebClient/bin/Debug/netcoreapp3.1
 /src/Clients/Clients.Authentication/obj
 /src/Clients/Clients.Authentication/bin/Debug/netcoreapp3.1
+/src/Clients/Clients.WebClient/obj
+/src/Clients/Clients.WebClient/bin/Debug/netcoreapp3.1
